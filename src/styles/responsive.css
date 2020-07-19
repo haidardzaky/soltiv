@@ -1,0 +1,143 @@
+/*For xs - sm size*/
+@media only screen and (max-width: 959px) {
+
+}
+
+/*For xs - md size*/
+@media only screen and (max-width: 1279px) {
+
+}
+
+/*For xs - lg size*/
+@media only screen and (max-width: 1919px) {
+
+}
+
+/*For xl size*/
+@media only screen and (min-width: 1920px) {
+
+}
+
+
+/*For sm - xl size*/
+@media only screen and (min-width: 600px) {
+}
+/*For md - xl size*/
+@media only screen and (min-width:960px) {
+
+}
+
+/* lg & xl */
+@media (min-width:1280px) {
+  .container {
+    width: 1140px !important;
+  }
+  .lg-none{
+    display: none !important;
+  }
+}
+
+/* md only */
+@media (min-width:960px) and (max-width: 1279px) {
+  .container {
+    width: 900px !important;
+  }
+  .testimoni-card{
+    width: 650px
+  }
+  .md-none{
+    display: none !important;
+  }
+  .right-logo{
+    width: 50%
+  }
+}
+
+/* sm only */
+@media (min-width:600px) and (max-width: 959px) {
+  .testimoni-card{
+    width: 480px;
+    height: 150px;
+    margin: 0 auto;
+    opacity: 1;
+    pading: 15px;
+  }
+  .container{
+    width: 580px !important;
+  }
+  .sm-none{
+    display: none !important;
+  }
+  .home1-bg{
+    height: 750px;
+  }
+  .detail-card{
+    width:85%;
+    height: 250px;
+    border-radius: 5px
+  }
+  .chevron-detail{
+    margin-top: 120px
+  }
+  .home1-left{
+    font-size: 36px;
+  }
+}
+
+
+
+/* xs only */
+@media (max-width:599px) {
+  .container {
+    width: 92%;
+  }
+  .testimoni-card{
+    width: 280px;
+    height: 250px;
+    margin: 0 auto;
+    opacity: 1;
+    padding: 15px;
+  }
+  .slick-slide.slick-center .testimoni-card {
+    transform: scale(1) !important;
+    opacity: 1;
+    filter: none;
+  }
+  .xs-none{
+    display: none !important;
+  }
+  .home1-bg{
+    height: 750px;
+  }
+  .social-media-position{
+    width: 100%;
+    padding-bottom: 30px;
+    text-align:center
+  }
+  .detail-card{
+    width:280px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 5px
+  }
+  .home1-left{
+    margin-top: 35px;
+  }
+  .home1-left{
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  .button-portfolio{
+    width: 280px;
+  }
+}
+
+/* special case */
+@media (min-width:342px) and (max-width: 409px) {
+
+}
+
+@media (max-width:320px){
+
+}
